@@ -1,0 +1,1 @@
+${date:-date} -d @$(echo ${1:0:10}) "+%Y-%m-%dT%H:%M:%SZ"
